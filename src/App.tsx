@@ -179,7 +179,7 @@ function App() {
                   <span className="text-sm text-[#A9B3C7]">Java Edition (PC/Laptop)</span>
                 </div>
                 <div className="flex items-center justify-between bg-[#2A2F3B] rounded-lg px-3 py-2">
-                  <code className="text-lg font-mono">play.omeletnetwork.my.id</code>
+                  <code className="text-lg font-mono">play.omeletnetwork.my.id:25275</code>
                   <button onClick={copyIP} className="p-1 hover:bg-[#1B1E26] rounded">
                     {copied ? <Check className="w-4 h-4 text-[#22C55E]" /> : <Copy className="w-4 h-4 text-[#A9B3C7]" />}
                   </button>
@@ -209,7 +209,7 @@ function App() {
                 <span className="w-2 h-2 bg-[#22C55E] rounded-full" />
                 Server Online
               </span>
-              <span className="text-[#22C55E]">142 Players</span>
+              <span className="text-[#22C55E]">14 Players</span>
             </div>
           </div>
         </div>
