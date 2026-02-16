@@ -396,21 +396,27 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-4">
-            <div className="rounded-xl overflow-hidden border border-[#F4F7FF]/10">
-              <img src="/screenshot_spawn.jpg" alt="Spawn" className="w-full h-48 object-cover" loading="lazy" />
-              <div className="p-3 bg-[#2A2F3B]">
+            <div className="rounded-xl overflow-hidden border border-[#F4F7FF]/10 bg-[#2A2F3B]">
+              <div className="w-full h-48 bg-gradient-to-br from-[#22C55E]/20 to-[#1B1E26] flex items-center justify-center">
+                <Gamepad2 className="w-16 h-16 text-[#22C55E]/50" />
+              </div>
+              <div className="p-3">
                 <p className="font-semibold">Spawn Town</p>
               </div>
             </div>
-            <div className="rounded-xl overflow-hidden border border-[#F4F7FF]/10">
-              <img src="/screenshot_shop.jpg" alt="Shops" className="w-full h-48 object-cover" loading="lazy" />
-              <div className="p-3 bg-[#2A2F3B]">
+            <div className="rounded-xl overflow-hidden border border-[#F4F7FF]/10 bg-[#2A2F3B]">
+              <div className="w-full h-48 bg-gradient-to-br from-[#3B82F6]/20 to-[#1B1E26] flex items-center justify-center">
+                <Shield className="w-16 h-16 text-[#3B82F6]/50" />
+              </div>
+              <div className="p-3">
                 <p className="font-semibold">Player Shops</p>
               </div>
             </div>
-            <div className="rounded-xl overflow-hidden border border-[#F4F7FF]/10">
-              <img src="/screenshot_base.jpg" alt="Base" className="w-full h-48 object-cover" loading="lazy" />
-              <div className="p-3 bg-[#2A2F3B]">
+            <div className="rounded-xl overflow-hidden border border-[#F4F7FF]/10 bg-[#2A2F3B]">
+              <div className="w-full h-48 bg-gradient-to-br from-[#FFD15C]/20 to-[#1B1E26] flex items-center justify-center">
+                <Crown className="w-16 h-16 text-[#FFD15C]/50" />
+              </div>
+              <div className="p-3">
                 <p className="font-semibold">Base Overlook</p>
               </div>
             </div>
